@@ -43,11 +43,6 @@ const useStyles = makeStyles({
   },
 });
 
-const handleClick = () => {
-  alert("Clicked!!!!!!!!!!!")
-};
-
-
 export const Home: React.FC = ({}) => {
   const classes = useStyles();
 
